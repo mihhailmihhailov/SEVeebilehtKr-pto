@@ -1,0 +1,43 @@
+body {
+    background: rgba(0, 238, 255, 0.2);
+    
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Verdana;
+  }
+  p {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-family: Verdana;
+  }
+  a{
+    color: black;
+    font-size: x-large;
+    font-family: Verdana;
+    border: 3px solid black;
+    padding: 10px
+  }
+  .column{
+    float: left;
+    width: 45%;
+    text-align: justify;
+    padding: 2%;
+  }
+
+  .row:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  figcaption {
+    text-align: right;
+    font-family: Verdana;
+    font-size: small;
+  }
+
+  img{
+    border: 2px solid black
+  }
