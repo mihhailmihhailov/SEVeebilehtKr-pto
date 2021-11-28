@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     background: rgba(0, 238, 255, 0.2);
 }
 .body1 {
@@ -42,6 +43,36 @@ p {
   text-align: justify;
   padding: 2%;
 }
+=======
+    background: linear-gradient(to right,#c94fdf, #47acff);
+    
+    
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Verdana;
+  }
+  p {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-family: Verdana;
+  }
+  a{
+    color: black;
+    font-size: x-large;
+    font-family: Verdana;
+    border: 3px solid black;
+    padding: 10px
+    
+  }
+  .column{
+    float: left;
+    width: 45%;
+    text-align: justify;
+    padding: 2%;
+  }
+>>>>>>> 7487faf1f7dc5acf0f9c5f657c68aefabafd7013
 
 .row:after {
   content: '';
