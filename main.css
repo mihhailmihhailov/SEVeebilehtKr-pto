@@ -1,49 +1,70 @@
 body {
     background: rgba(0, 238, 255, 0.2);
-    
-  }
-  h1 {
-    color: rgb(0, 0, 0);
-    font-size: x-large;
-    font-family: Verdana;
-  }
-  p {
-    color: rgb(0, 0, 0);
-    font-size: medium;
-    font-family: Verdana;
-  }
-  a{
-    color: black;
-    font-size: x-large;
-    font-family: Verdana;
-    border: 3px solid black;
-    padding: 10px
-    
-  }
-  .column{
-    float: left;
-    width: 45%;
-    text-align: justify;
-    padding: 2%;
-  }
+}
+.body1 {
+  background-image: url('pildid/taust.png');
+  background-repeat: no-repeat;
+  background-position-y: 90px;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+  font-family: Verdana;
+}
+h2 {
+  color: black;
+  font-size: large;
+  font-family: Verdana;
+}
+p {
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  font-family: Verdana;
+}
+.p1{
+  text-align: center;
+  padding: 3%;
+  background-color:rgb(172, 172, 172);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+.link1 {
+  color: black;
+  font-size: x-large;
+  font-family: Verdana;
+  border: 2px solid black;
+  padding: 10px
+}
+.column {
+  float: left;
+  width: 45%;
+  text-align: justify;
+  padding: 2%;
+}
 
-  .row:after {
-    content: '';
-    display: table;
-    clear: both;
-  }
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
 
-  figcaption {
-    text-align: right;
-    font-family: Verdana;
-    font-size: small;
-  }
+figcaption {
+  text-align: match-parent;
+  font-family: Verdana;
+  font-size: small;
+}
 
-  img{
-    border: 2px solid black
-  }
+img {
+  border: 2px solid black
+}
 
-  .p1{
-    text-align: center;
-    padding: 5%;
-  }
+.lingid {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+
+

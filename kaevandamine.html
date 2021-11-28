@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kaevandamine</title>
+    <link rel=stylesheet href='main.css'>
+</head>
+<body>
+    <div class=row>
+        <div class=column>
+            <h1>Mis see on?</h1>
+            <p>
+                Kaevandamine on protsess, kus usaldatud validaator kinnitab erinevate algoritmide kaudu tehingu, 
+                mis lisatakse uue plokina ahelasse ning validaator saab tehtud töö eest tasu ehk krüptovaluutat.
+            </p>
+            <h2>Proof of work</h2>
+            <p>
+                Kui valuuta kasutab PoW algoritmi siis selleks, et tehing kinnitada tuleb see lisada plokiahelasse 
+                uue plokina. Selleks, et seda teha on vaja teada eelmise ploki räsi, mis on peidetud. Kuna räsi leidmiseks
+                ei ole mingit algoritmi siis parim viis on hakata lihtsalt numbreid pakkuma. Kuna tasustatud saab see, kes
+                esimesena ploki lisab, siis kaevandamine on sisuliselt teistega võistlemine. Kuna PoW puhul peab võimalikult 
+                kiirelt räsi ära arvama, siis on see väga ressursi nõudlik tegevus. Siin saab kasutada <a href='pildid/videokaardid.png' target=blank>videokaarte</a>
+                või <a href='pildid/antminer.png' target=blank>spetsiaalset riistvara</a>.
+                <figure>
+                <img src='pildid/difficulty.png' alt='Kaevandamise raskus' width = 95%>
+                <figcaption>Kaevandamise raskus</figcaption>
+                </figure>
+            </p>
+        </div>
+        <div class=column>
+            <h2>Proof of stake</h2>
+            <p>
+                PoS algoritm toimib natuke teistmoodi. Selles süsteemis saavad krüptovaluuta hoiustajad enda valuutat
+                <i>stake</i>-da. Need kes enda valuutat stakevad on "usaldatud" validaatorid. Kui tahetakse uut plokki ahelasse
+                lisada siis validaatorid peavad jõudma konsensusele, kas tehing on valiidne või mitte. Kui jõutakse konsensusele
+                ja plokk lisatakse ahelasse siis validaatorid saavad tasustatud.
+                <br>
+                <br>
+                Nagu allolevatelt piltidelt välja tuleb on kaevandamise raskus ja kogu hashrate omavahel lineaarselt seotud.
+                Mida rohkem arvutusressurssi on süsteemis, seda raskemaks läheb kaevandamine.
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <figure>
+                    <img src='pildid/hashrate.png' alt='Kogu hashrate' width = 95%>
+                    <figcaption>Kogu hashrate</figcaption>
+                </figure>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
